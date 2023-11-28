@@ -1,0 +1,46 @@
+.calculator {
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .parent{
+    width: 100%;
+    background-color: #635f5f;
+  }
+  
+  button {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ccc;
+    font-size: 20px;
+  }
+  
+  input {
+    width: 96%;
+    height: 50px;
+    text-align: right;
+  }
+
+  #AC{
+    background-color: #6c0a0a;
+    color: aliceblue;
+  }
+
+  #val{
+    background-color: black;
+    color: #ccc;
+  }
+
+  #operation{
+    background-color: #565555;
+    color: #ccc;
+  }
+
